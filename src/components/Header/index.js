@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import headerDesktop from '../../assets/img/header.jpg'
-import headerMobile from '../../assets/img/header-rev.jpg'
+import Form from '../Form'
 
 export default class Header extends Component {
   constructor(props){
@@ -22,6 +22,9 @@ export default class Header extends Component {
             <TitleDescription>
               Подберем предложения по займам независимо от вашей кредитной истории
             </TitleDescription>
+          </HeaderTitleContainer>
+          <HeaderTitleContainer>
+            <Form />
           </HeaderTitleContainer>
         </HeaderContainer>
       </HeaderWrapper>

@@ -4,9 +4,11 @@
   "private": true,
   "dependencies": {
     "lodash": "^4.17.15",
+    "moment": "^2.24.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1",
+    "react-simple-range": "^1.6.0",
     "styled-components": "^4.3.2"
   },
   "scripts": {
